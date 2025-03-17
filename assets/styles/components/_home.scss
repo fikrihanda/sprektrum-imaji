@@ -1,0 +1,169 @@
+.home-hero {
+  background: url('~/assets/images/dot.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+}
+
+.home-hero-banner {
+  @apply
+    flex
+    flex-col
+    items-center
+    mt-[64px]
+    px-[80px];
+}
+
+.home-hero-banner-text {
+  @apply
+    flex
+    flex-col
+    items-center
+    self-stretch;
+}
+
+.home-hero-banner-title {
+  @apply
+    text-[74px]
+    font-bold
+    leading-[88px]
+    text-[#9DE500]
+    text-center;
+}
+
+.home-hero-banner-subtitle {
+  @apply
+    mt-[24px]
+    text-[#E9F1FB]
+    text-[20px]
+    leading-[30px]
+    text-center;
+}
+
+.home-hero-banner-consult {
+  @apply
+    flex
+    flex-col
+    items-center
+    mt-[48px];
+}
+
+.home-hero-banner-rating {
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    mt-[32px];
+}
+
+.home-hero-banner-star {
+  @apply
+    flex
+    justify-center
+    items-center;
+}
+
+.home-hero-banner-star-inner {
+  @apply
+    flex
+    items-center
+    gap-[8px];
+
+  > .star {
+    @apply
+      text-[#FFC107];
+  }
+}
+
+.home-hero-banner-star-text {
+  @apply
+    ml-[16px]
+    text-[20px]
+    text-[#E9F1FB]
+    leading-[30px]
+}
+
+.home-hero-banner-rating-text {
+  @apply
+    mt-[16px]
+    text-[#E9F1FB]
+    text-[20px]
+    font-medium
+    leading-[30px]
+}
+
+.home-hero-unggul {
+  @apply
+    flex
+    items-center
+    gap-[40px]
+    mt-[99px]
+    pb-[66px]
+    px-[80px];;
+}
+
+.home-hero-unggul-item {
+  @apply
+    flex
+    p-[24px]
+    flex-col
+    self-stretch
+    flex-[1_1_0]
+    rounded-[16px]
+    relative;
+
+  &::before {
+    @apply
+      content-['']
+      absolute
+      inset-[0]
+      p-[1px];
+
+    background: linear-gradient(#9DE500, #1D5DBD);
+    border-radius: inherit;
+    mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
+  }
+}
+
+.home-hero-unggul-item-title {
+  @apply
+    text-[#E9F1FB]
+    text-[48px]
+    font-bold
+    leading-[62px]
+    tracking-[0.384px]
+    pt-[9px];
+}
+
+.home-hero-unggul-item-subtitle {
+  @apply
+    text-[#D4DBE4]
+    text-[20px]
+    font-medium
+    leading-[30px];
+}
+
+.home-tag {
+  @apply
+    flex
+    h-[100px]
+    p-[16px]
+    justify-center
+    items-center
+    gap-[61px]
+    self-stretch;
+
+  > .icon {
+    @apply text-[#9DE500]
+  }
+}
+
+.home-tag-text {
+  @apply
+    text-[#E9F1FB]
+    text-[24px]
+    font-medium
+    leading-[34px]
+    tracking-[0.048px];
+}
