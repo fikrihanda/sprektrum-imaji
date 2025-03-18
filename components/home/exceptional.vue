@@ -1,0 +1,94 @@
+<script lang="ts" setup>
+const tags = ref([
+  {
+    value: null,
+    text: 'All',
+  },
+  {
+    value: 1,
+    text: 'Graphic Design',
+  },
+  {
+    value: 2,
+    text: 'UI/UX Design',
+  },
+  {
+    value: 3,
+    text: 'Web Development',
+  },
+  {
+    value: 4,
+    text: 'App Development',
+  },
+])
+const selectTag = ref(tags.value[0])
+const items = ref(
+  Array.from({
+    length: 9,
+  }, (_v, i) => {
+    return {
+      id: i + 1,
+      title: 'Content Creation',
+      desc: 'Our team produces eye-catching graphics',
+    }
+  }),
+)
+
+function activeButton(item: {
+  value: null | number
+  text: string
+}) {
+  return selectTag.value.value === item.value ? 'active' : null
+}
+
+function dynamicUrl(item: number) {
+  const url = new URL(`/assets/images/items-${item + 1}.png`, import.meta.url).href
+  return url
+}
+</script>
+
+<template>
+  <div class="home-exceptional">
+    <div class="home-exceptional-container">
+      <div class="home-exceptional-title">
+        Exceptional Work
+      </div>
+      <div class="home-exceptional-subtitle">
+        Explore our recent projects showcasing creativity, innovation, and impactful design solutions.
+      </div>
+    </div>
+    <div class="home-exceptional-tags">
+      <button v-for="(item, i) in tags" :key="`tag-${i}`" class="btn-select" :class="[activeButton(item)]" @click="selectTag = item">
+        {{ item.text }}
+      </button>
+    </div>
+    <div class="home-exceptional-items">
+      <div v-for="(item, i) in items" :key="`item-${i}`" class="home-exceptional-item">
+        <div class="home-exceptional-img">
+          <img :src="dynamicUrl(i)">
+        </div>
+        <div class="home-exceptional-desc">
+          <div>
+            <div class="home-exceptional-desc-title">
+              {{ item.title }}
+            </div>
+            <div class="home-exceptional-desc-desc">
+              {{ item.desc }}
+            </div>
+          </div>
+          <div class="ml-auto">
+            <button class="btn-actions">
+              <NuxtIcon name="my-icon:arrow" size="15" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[40px] text-center">
+      <button class="btn-select">
+        Show More Work
+        <NuxtIcon name="my-icon:arrow" size="15" class="ml-3" />
+      </button>
+    </div>
+  </div>
+</template>

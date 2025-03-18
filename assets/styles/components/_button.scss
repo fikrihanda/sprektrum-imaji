@@ -9,3 +9,48 @@
     font-bold
     leading-[30px];
 }
+
+.btn-select {
+  @apply
+    px-[32px]
+    py-[16px]
+    rounded-full
+    text-[20px]
+    text-[#E9F1FB]
+    font-bold
+    border-[#38338F]
+    border-[1px]
+    leading-[30px];
+
+  &:hover {
+    @apply
+      text-[#061425]
+      bg-[#9DE500]
+  }
+
+  &.active {
+    @apply
+      text-[#061425]
+      bg-[#9DE500]
+  }
+}
+
+.btn-actions {
+  @apply
+    flex
+    items-center
+    justify-center
+    bg-transparent
+    rounded-full
+    w-[52px]
+    h-[52px]
+    text-white
+    border-[1px]
+    border-[#38338F];
+
+  &:hover {
+    @apply
+      text-[#061425]
+      bg-[#9DE500]
+  }
+}

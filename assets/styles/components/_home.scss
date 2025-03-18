@@ -1,8 +1,22 @@
 .home-hero {
-  background: url('~/assets/images/dot.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  mix-blend-mode: color-dodge;
+  padding-top: 144px;
+  background-image: url('~/assets/images/dot.png'),
+    url('~/assets/images/home-bg-gradient.svg'),
+    url('~/assets/images/home-bg-gradient-2.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, auto, auto;
+  background-position: center, top left, top right;
+}
+
+.home-bg-one {
+  position: absolute;
+  top:0;
+}
+
+.home-bg-two {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .home-hero-banner {
@@ -10,7 +24,6 @@
     flex
     flex-col
     items-center
-    mt-[64px]
     px-[80px];
 }
 
@@ -99,8 +112,8 @@
     items-center
     gap-[40px]
     mt-[99px]
-    pb-[66px]
-    px-[80px];;
+    pb-[64px]
+    px-[80px];
 }
 
 .home-hero-unggul-item {
@@ -120,7 +133,7 @@
       inset-[0]
       p-[1px];
 
-    background: linear-gradient(#9DE500, #1D5DBD);
+    background-image: linear-gradient(to left, #9DE500, #1D5DBD);
     border-radius: inherit;
     mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
   }
@@ -166,4 +179,95 @@
     font-medium
     leading-[34px]
     tracking-[0.048px];
+}
+
+.home-exceptional {
+  @apply
+    py-[100px]
+    px-[80px]
+}
+
+.home-exceptional-container {
+  @apply
+    w-[809px]
+}
+
+.home-exceptional-title {
+  @apply
+    text-[#9DE500]
+    text-[74px]
+    font-bold
+    leading-[88px]
+    tracking-[0.888px]
+}
+
+.home-exceptional-subtitle {
+  @apply
+    pt-[24px]
+    text-[20px]
+    text-[#E9F1FB]
+    font-medium
+    leading-[30px]
+}
+
+.home-exceptional-tags {
+  @apply
+    flex
+    items-center
+    mt-[60px]
+    gap-[24px];
+}
+
+.home-exceptional-items {
+  @apply
+    mt-[30px]
+}
+
+.home-exceptional-items {
+  @apply
+    grid
+    grid-cols-3
+    gap-[40px]
+    self-stretch;
+}
+
+.home-exceptional-item {
+  @apply
+    rounded-[16px]
+    border-[#38338F]
+    border-[1px]
+    p-[24px]
+}
+
+.home-exceptional-img {
+  @apply
+    h-[277px]
+    overflow-hidden
+    rounded-[12px]
+}
+
+.home-exceptional-desc {
+  @apply
+  mt-[24px]
+    flex
+    items-center
+    gap-[24px]
+    self-stretch;
+}
+
+.home-exceptional-desc-title {
+  @apply
+    text-[#E9F1FB]
+    text-[24px]
+    font-bold
+    leading-[34px]
+    tracking-[0.048px]
+}
+
+.home-exceptional-desc-desc {
+  @apply
+    mt-[8px]
+    text-[#D4DBE4]
+    text-[20px]
+    leading-[30px]
 }
