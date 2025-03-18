@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
-  css: ['./assets/styles/app.scss'],
+  css: ['./assets/styles/app.scss', 'vue3-carousel/carousel.css'],
   modules: [
     '@nuxt/icon',
     '@nuxtjs/google-fonts',

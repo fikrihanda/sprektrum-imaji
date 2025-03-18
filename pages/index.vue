@@ -7,4 +7,5 @@
   <HomeTag />
   <HomeExceptional />
   <HomeServices />
+  <HomeCustomer />
 </template>

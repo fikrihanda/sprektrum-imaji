@@ -171,7 +171,8 @@
 }
 
 .home-exceptional,
-.home-services {
+.home-services,
+.home-customer {
   @apply
     py-[100px]
     px-[80px]
@@ -185,7 +186,7 @@
 
 .home-entitled-container {
   @apply
-    w-[809px]
+    w-[835px]
 }
 
 .home-entitled-title {
@@ -204,6 +205,20 @@
     text-whitend-500
     font-medium
     leading-[30px]
+}
+
+.home-entitled-tag {
+  @apply
+    inline-block
+    px-[32px]
+    py-[16px]
+    border-[1px]
+    border-accent
+    rounded-full
+    text-whitend-500
+    text-[20px]
+    leading-[30px]
+    font-bold
 }
 
 .home-exceptional-tags {
@@ -307,4 +322,63 @@
     text-[16px]
     leading-[24px]
     text-whitend-500
+}
+
+.home-customer-item {
+  @apply
+    p-[24px]
+    rounded-[16px]
+    border-[1px]
+    border-accent
+    w-full
+}
+
+.home-customer-item-quote {
+  @apply
+    mt-[24px]
+    p-[20px]
+    bg-[#0E1C30]
+    rounded-[12px]
+    text-[24px]
+    leading-[34px]
+    tracking-[0.048px]
+    text-whitend-500
+}
+
+.home-customer-item-user-r {
+  @apply
+    flex
+    justify-between
+    items-center
+    self-stretch
+}
+
+.home-customer-item-user {
+  @apply
+    flex
+    items-start
+    gap-[12px];
+
+  > img {
+    @apply
+      w-[50px]
+      h-[50px]
+      rounded-full
+  }
+}
+
+.home-customer-item-user-name {
+  @apply
+    text-[16px]
+    leading-[24px]
+    font-bold
+    text-whitend-500
+}
+
+.home-customer-item-user-job {
+  @apply
+    mt-[8px]
+    text-[12px]
+    leading-[18px]
+    text-whitend-600
 }
