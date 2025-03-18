@@ -1,22 +1,11 @@
 .home-hero {
   padding-top: 144px;
   background-image: url('~/assets/images/dot.png'),
-    url('~/assets/images/home-bg-gradient.svg'),
-    url('~/assets/images/home-bg-gradient-2.svg');
+    url('~/assets/images/home-bg-hero-gradient.svg'),
+    url('~/assets/images/home-bg-hero-gradient-2.svg');
   background-repeat: no-repeat, no-repeat;
   background-size: 100%, auto, auto;
   background-position: center, top left, top right;
-}
-
-.home-bg-one {
-  position: absolute;
-  top:0;
-}
-
-.home-bg-two {
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .home-hero-banner {
@@ -40,14 +29,14 @@
     text-[74px]
     font-bold
     leading-[88px]
-    text-[#9DE500]
+    text-secondary
     text-center;
 }
 
 .home-hero-banner-subtitle {
   @apply
     mt-[24px]
-    text-[#E9F1FB]
+    text-whitend-500
     text-[20px]
     leading-[30px]
     text-center;
@@ -93,14 +82,14 @@
   @apply
     ml-[16px]
     text-[20px]
-    text-[#E9F1FB]
+    text-whitend-500
     leading-[30px]
 }
 
 .home-hero-banner-rating-text {
   @apply
     mt-[16px]
-    text-[#E9F1FB]
+    text-whitend-500
     text-[20px]
     font-medium
     leading-[30px]
@@ -141,7 +130,7 @@
 
 .home-hero-unggul-item-title {
   @apply
-    text-[#E9F1FB]
+    text-whitend-500
     text-[48px]
     font-bold
     leading-[62px]
@@ -151,7 +140,7 @@
 
 .home-hero-unggul-item-subtitle {
   @apply
-    text-[#D4DBE4]
+    text-whitend-600
     text-[20px]
     font-medium
     leading-[30px];
@@ -168,44 +157,51 @@
     self-stretch;
 
   > .icon {
-    @apply text-[#9DE500]
+    @apply text-secondary
   }
 }
 
 .home-tag-text {
   @apply
-    text-[#E9F1FB]
+    text-whitend-500
     text-[24px]
     font-medium
     leading-[34px]
     tracking-[0.048px];
 }
 
-.home-exceptional {
+.home-exceptional,
+.home-services {
   @apply
     py-[100px]
     px-[80px]
 }
 
-.home-exceptional-container {
+.home-entitled-group {
+  @apply
+    flex
+    items-center;
+}
+
+.home-entitled-container {
   @apply
     w-[809px]
 }
 
-.home-exceptional-title {
+.home-entitled-title {
   @apply
-    text-[#9DE500]
+    text-secondary
     text-[74px]
     font-bold
     leading-[88px]
     tracking-[0.888px]
 }
 
-.home-exceptional-subtitle {
+.home-entitled-subtitle {
   @apply
     pt-[24px]
     text-[20px]
-    text-[#E9F1FB]
+    text-whitend-500
     font-medium
     leading-[30px]
 }
@@ -234,7 +230,7 @@
 .home-exceptional-item {
   @apply
     rounded-[16px]
-    border-[#38338F]
+    border-accent
     border-[1px]
     p-[24px]
 }
@@ -257,7 +253,7 @@
 
 .home-exceptional-desc-title {
   @apply
-    text-[#E9F1FB]
+    text-whitend-500
     text-[24px]
     font-bold
     leading-[34px]
@@ -267,7 +263,48 @@
 .home-exceptional-desc-desc {
   @apply
     mt-[8px]
-    text-[#D4DBE4]
+    text-whitend-600
     text-[20px]
     leading-[30px]
+}
+
+.home-services {
+  background-image: url('~/assets/images/home-bg-services-gradient.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.home-services-items {
+  @apply
+    mt-[60px]
+    grid
+    grid-cols-3
+    gap-[40px]
+    self-stretch
+}
+
+.home-services-item {
+  @apply
+    rounded-[16px]
+    border-[1px]
+    border-accent
+    p-[24px]
+}
+
+.home-services-item-title {
+  @apply
+    mt-[24px]
+    text-[24px]
+    font-bold
+    text-secondary
+    leading-[34px]
+    tracking-[0.048px]
+}
+
+.home-services-item-desc {
+  @apply
+    mt-[8px]
+    text-[16px]
+    leading-[24px]
+    text-whitend-500
 }

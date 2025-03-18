@@ -33,6 +33,15 @@ export default defineNuxtConfig({
         fontFamily: {
           sans: ['"Space Grotesk"', 'Tofu'],
         },
+        extend: {
+          colors: {
+            'primary-500': '#061425',
+            'secondary': '#9DE500',
+            'accent': '#38338F',
+            'whitend-500': '#E9F1FB',
+            'whitend-600': '#D4DBE4',
+          },
+        },
       },
       // content: {
       //   files: [

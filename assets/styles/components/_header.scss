@@ -18,19 +18,19 @@
   > a {
     @apply
       text-[20px]
-      text-[#E9F1FB]
+      text-whitend-500
       leading-[30px];
 
     &:hover {
       @apply
         underline
-        text-[#9DE500];
+        text-secondary;
     }
 
     &.router-link-active.router-link-exact-active {
       @apply
         underline
-        text-[#9DE500];
+        text-secondary;
     }
   }
 }

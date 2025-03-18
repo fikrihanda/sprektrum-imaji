@@ -4,8 +4,8 @@
     py-[16px]
     rounded-full
     text-[20px]
-    text-[#061425]
-    bg-[#9DE500]
+    text-primary-500
+    bg-secondary
     font-bold
     leading-[30px];
 }
@@ -16,22 +16,22 @@
     py-[16px]
     rounded-full
     text-[20px]
-    text-[#E9F1FB]
+    text-whitend-500
     font-bold
-    border-[#38338F]
+    border-accent
     border-[1px]
     leading-[30px];
 
   &:hover {
     @apply
-      text-[#061425]
-      bg-[#9DE500]
+      text-primary-500
+      bg-secondary
   }
 
   &.active {
     @apply
-      text-[#061425]
-      bg-[#9DE500]
+      text-primary-500
+      bg-secondary
   }
 }
 
@@ -46,11 +46,11 @@
     h-[52px]
     text-white
     border-[1px]
-    border-[#38338F];
+    border-accent;
 
   &:hover {
     @apply
-      text-[#061425]
-      bg-[#9DE500]
+      text-primary-500
+      bg-secondary
   }
 }

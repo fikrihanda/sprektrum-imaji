@@ -49,13 +49,19 @@ function dynamicUrl(item: number) {
 
 <template>
   <div class="home-exceptional">
-    <div class="home-exceptional-container">
-      <div class="home-exceptional-title">
-        Exceptional Work
+    <div class="home-entitled-group">
+      <div class="home-entitled-container">
+        <div class="home-entitled-title">
+          Exceptional Work
+        </div>
+        <div class="home-entitled-subtitle">
+          Explore our recent projects showcasing creativity, innovation, and impactful design solutions.
+        </div>
       </div>
-      <div class="home-exceptional-subtitle">
-        Explore our recent projects showcasing creativity, innovation, and impactful design solutions.
-      </div>
+      <button class="btn-select ml-auto">
+        Show More Works
+        <NuxtIcon name="my-icon:arrow" size="15" class="ml-[16px]" />
+      </button>
     </div>
     <div class="home-exceptional-tags">
       <button v-for="(item, i) in tags" :key="`tag-${i}`" class="btn-select" :class="[activeButton(item)]" @click="selectTag = item">
@@ -83,12 +89,6 @@ function dynamicUrl(item: number) {
           </div>
         </div>
       </div>
-    </div>
-    <div class="mt-[40px] text-center">
-      <button class="btn-select">
-        Show More Work
-        <NuxtIcon name="my-icon:arrow" size="15" class="ml-3" />
-      </button>
     </div>
   </div>
 </template>
