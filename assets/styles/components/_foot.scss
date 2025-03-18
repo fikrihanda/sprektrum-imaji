@@ -1,0 +1,87 @@
+.foot-elevate,
+.foot-about {
+  @apply
+    py-[100px]
+    px-[80px]
+}
+
+.foot-elevate-content {
+  @apply
+    p-[40px]
+    rounded-[16px]
+    bg-[#0E1C30];
+
+  background-image: url('~/assets/images/dot2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.foot-elevate-title {
+  @apply
+    text-[74px]
+    font-bold
+    leading-[88px]
+    tracking-[0.888px]
+    text-secondary
+    text-center
+}
+
+.foot-elevate-desc {
+  @apply
+    mt-[24px]
+    text-[32px]
+    text-whitend-500
+    leading-[42px]
+    tracking-[0.096px]
+    font-medium
+}
+
+.foot-about-content {
+  @apply
+    flex
+    justify-center
+    items-center
+    gap-[80px]
+}
+
+.foot-about-item {
+  @apply
+    flex-[1_0_0];
+
+  > .normalize {
+    @apply
+    mt-[16px]
+      text-[16px]
+      leading-[24px]
+      text-whitend-500;
+  }
+}
+
+.foot-about-boost {
+  @apply
+    text-[16px]
+    leading-[24px]
+    text-whitend-500;
+}
+
+.foot-about-item-title {
+  @apply
+    text-[20px]
+    leading-[30px]
+    font-bold
+    text-whitend-500
+}
+
+.foot-hr {
+  @apply
+    my-[60px]
+    border-accent
+}
+
+.foot-closing {
+  @apply
+    text-[16px]
+    leading-[24px]
+    text-whitend-500;
+}

@@ -1,6 +1,10 @@
+<script lang="ts" setup>
+
+</script>
+
 <template>
   <div class="si-header">
-    <img src="~/assets/images/logo.png"/>
+    <img src="~/assets/images/logo.png">
     <div class="si-header-menu">
       <NuxtLink to="/">
         Home
@@ -21,7 +25,3 @@
     <div>a</div>
   </div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
