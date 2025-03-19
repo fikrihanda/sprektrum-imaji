@@ -1,0 +1,117 @@
+.about-hero {
+  @apply
+    pt-[144px]
+    px-[80px];
+}
+
+
+.about-hero-title {
+  @apply
+    text-[74px]
+    font-bold
+    leading-[88px]
+    text-secondary
+    text-center;
+}
+
+.about-hero-subtitle {
+  @apply
+    mt-[24px]
+    text-whitend-500
+    text-[20px]
+    leading-[30px]
+    text-center;
+}
+
+.about-grid {
+  @apply
+    mt-[60px]
+    px-[60px];
+}
+
+.about-grid-sizer {
+  @apply
+  w-[33.33333333333333%]
+}
+
+.about-grid-item {
+  @apply
+    w-[33.33333333333333%]
+    overflow-hidden
+    px-[20px]
+    mb-[40px];
+
+  > img {
+    @apply
+      w-full
+      rounded-[16px]
+      object-cover;
+  }
+
+  &.one {
+    @apply
+      h-[546px];
+
+    > img {
+      @apply
+        h-full
+    }
+  }
+
+  &.two {
+    @apply
+      h-[385px];
+
+    > img {
+      @apply
+        h-full
+    }
+  }
+
+  &.three {
+    @apply
+      w-[66.66666666666666%]
+      h-[521px];
+
+    > img {
+      @apply
+        h-full;
+    }
+  }
+
+  &.four {
+    @apply
+      h-[360px];
+
+    > img {
+      @apply
+        h-full
+    }
+  }
+}
+
+.about-story {
+  @apply
+    mt-[60px]
+    pb-[100px]
+    pl-[80px]
+    pr-[80px]
+}
+
+.about-story-title {
+  @apply
+    text-secondary
+    text-[58px]
+    font-bold
+    leading-[64px]
+    tracking-[0.58px]
+}
+
+.about-story-desc-1,
+.about-story-desc-2 {
+  @apply
+    text-[20px]
+    text-whitend-500
+    leading-[28px]
+    mt-[24px]
+}

@@ -1,5 +1,7 @@
 .home-hero {
-  padding-top: 144px;
+  @apply
+    pt-[144px];
+
   background-image: url('~/assets/images/dot.png'),
     url('~/assets/images/home-bg-hero-gradient.svg'),
     url('~/assets/images/home-bg-hero-gradient-2.svg');

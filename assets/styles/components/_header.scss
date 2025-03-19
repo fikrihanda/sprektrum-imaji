@@ -29,7 +29,6 @@
 
     &.router-link-active.router-link-exact-active {
       @apply
-        underline
         text-secondary;
     }
   }
