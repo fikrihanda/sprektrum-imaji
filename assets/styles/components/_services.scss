@@ -1,0 +1,89 @@
+.services-our {
+  @apply
+  pt-[144px]
+}
+.services-our-items {
+  @apply
+    mt-[60px]
+    grid
+    grid-cols-3
+    gap-[40px]
+    self-stretch
+}
+
+.services-our-item {
+  @apply
+    rounded-[16px]
+    border-[1px]
+    border-accent
+    p-[24px]
+}
+
+.services-our-item-title {
+  @apply
+    mt-[24px]
+    text-[24px]
+    font-bold
+    text-secondary
+    leading-[34px]
+    tracking-[0.048px]
+}
+
+.services-our-item-desc {
+  @apply
+    mt-[8px]
+    text-[16px]
+    leading-[24px]
+    text-whitend-500
+}
+
+.services-how-items {
+  @apply
+    mt-[60px]
+    flex
+    items-center
+    gap-[40px]
+    self-stretch;
+}
+
+.services-how-item {
+  @apply
+    p-[32px]
+    flex-[1_0_0]
+    rounded-[16px]
+    border-[1px]
+    border-accent
+}
+
+.services-how-number {
+  @apply
+    inline-flex
+    w-[70px]
+    h-[70px]
+    items-center
+    justify-center
+    rounded-full
+    border-[1px]
+    border-secondary
+    text-[32px]
+    font-bold
+    text-secondary
+    mb-[24px]
+}
+
+.services-how-title {
+  @apply
+    text-[24px]
+    font-bold
+    text-whitend-500
+    leading-[32px]
+    tracking-[0.048px]
+}
+
+.services-how-desc {
+  @apply
+    mt-[8px]
+    text-[16px]
+    text-whitend-600
+    leading-[20px]
+}
