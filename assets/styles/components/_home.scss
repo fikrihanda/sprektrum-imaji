@@ -250,6 +250,18 @@
     border-accent
     border-[1px]
     p-[24px]
+    cursor-pointer;
+
+  &:hover {
+    @apply
+      border-secondary;
+
+    .btn-actions {
+      @apply
+        text-primary-500
+        bg-secondary
+    }
+  }
 }
 
 .home-exceptional-img {
@@ -261,7 +273,7 @@
 
 .home-exceptional-desc {
   @apply
-  mt-[24px]
+    mt-[24px]
     flex
     items-center
     gap-[24px]
@@ -270,7 +282,7 @@
 
 .home-exceptional-desc-title {
   @apply
-    text-whitend-500
+    text-whitend-600
     text-[24px]
     font-bold
     leading-[34px]

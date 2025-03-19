@@ -22,6 +22,6 @@
         Contact
       </NuxtLink>
     </div>
-    <div>a</div>
+    <!-- <div>a</div> -->
   </div>
 </template>
