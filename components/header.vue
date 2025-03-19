@@ -4,7 +4,7 @@
 
 <template>
   <div class="si-header">
-    <img src="~/assets/images/logo.png">
+    <img src="~/assets/images/logo.svg">
     <div class="si-header-menu">
       <NuxtLink to="/">
         Home

@@ -6,7 +6,7 @@
   <div class="foot-about">
     <div class="foot-about-content">
       <div class="foot-about-item">
-        <img src="~/assets/images/logo.png" class="h-[40px]">
+        <img src="~/assets/images/logo.svg" class="h-[40px]">
         <div class="mt-[16px] foot-about-boost">
           Boost Your Brand with Social Media Marketing
         </div>
