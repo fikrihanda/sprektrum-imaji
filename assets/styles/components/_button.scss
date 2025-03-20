@@ -1,5 +1,8 @@
 .btn-default {
   @apply
+    inline-flex
+    items-center
+    justify-center
     px-[32px]
     py-[16px]
     rounded-full
@@ -12,6 +15,9 @@
 
 .btn-select {
   @apply
+    inline-flex
+    items-center
+    justify-center
     px-[32px]
     py-[16px]
     rounded-full
@@ -37,7 +43,7 @@
 
 .btn-actions {
   @apply
-    flex
+    inline-flex
     items-center
     justify-center
     bg-transparent

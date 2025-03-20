@@ -32,7 +32,8 @@ const unggulItems = ref([
       </div>
       <div class="home-hero-banner-consult">
         <button class="btn-default">
-          Book Consultation
+          Book Free Consultation
+          <NuxtIcon name="my-icon:arrow" size="20" class="ml-[16px]" />
         </button>
         <div class="home-hero-banner-rating">
           <div class="home-hero-banner-star">

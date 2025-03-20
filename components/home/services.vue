@@ -2,28 +2,34 @@
 const servicesItems = computed(() => {
   return [
     {
-      icon: 'medal',
-      title: 'Landing Page Design',
+      icon: 'branding',
+      title: 'Branding Design',
+      desc: 'Creating a unique brand identity through strategy, design, and values to stand out in a crowded market.',
+    },
+    {
+      icon: 'graphic',
+      title: 'Graphic Design',
+      desc: 'Graphic design services craft visuals that enhance brand identity and ensure consistency across platforms.',
+    },
+    {
+      icon: 'uiux',
+      title: 'UI/UX',
+      desc: 'Intuitive UI/UX design enhances user satisfaction with seamless, visually appealing digital experiences.',
     },
     {
       icon: 'monitor',
-      title: 'UI/UX Design',
+      title: 'Web/App Design',
+      desc: 'Crafting visually appealing, user-friendly websites with design, layout, and functionality in harmony.',
     },
     {
-      icon: 'monitor',
-      title: 'UI/UX Design',
+      icon: 'website',
+      title: 'Website Development',
+      desc: 'From coding to server management, we ensure seamless, robust websites—magic behind the scenes.',
     },
     {
-      icon: 'community',
-      title: 'Web Development',
-    },
-    {
-      icon: 'megaphone',
+      icon: 'app',
       title: 'App Development',
-    },
-    {
-      icon: 'megaphone',
-      title: 'App Development',
+      desc: 'Custom mobile app development services tailored to your business needs with a user-friendly experience.',
     },
   ]
 })
@@ -42,7 +48,7 @@ const servicesItems = computed(() => {
       </div>
       <button class="btn-select ml-auto">
         Learn More
-        <NuxtIcon name="my-icon:arrow" size="15" class="ml-[16px]" />
+        <NuxtIcon name="my-icon:arrow" size="20" class="ml-[16px]" />
       </button>
     </div>
     <div class="home-services-items">
@@ -54,7 +60,7 @@ const servicesItems = computed(() => {
           {{ item.title }}
         </div>
         <div class="home-services-item-desc">
-          We keep an eye on what people are saying about your brand online. This helps us manage your reputation.
+          {{ item.desc }}
         </div>
       </div>
     </div>

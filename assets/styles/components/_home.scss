@@ -115,19 +115,9 @@
     self-stretch
     flex-[1_1_0]
     rounded-[16px]
+    border-[1px]
+    border-secondary
     relative;
-
-  &::before {
-    @apply
-      content-['']
-      absolute
-      inset-[0]
-      p-[1px];
-
-    background-image: linear-gradient(to left, #9DE500, #1D5DBD);
-    border-radius: inherit;
-    mask: conic-gradient(#000 0 0) content-box exclude, conic-gradient(#000 0 0);
-  }
 }
 
 .home-hero-unggul-item-title {
@@ -327,8 +317,8 @@
     mt-[24px]
     text-[24px]
     font-bold
-    text-secondary
-    leading-[34px]
+    text-whitend-500
+    leading-[32px]
     tracking-[0.048px]
 }
 
@@ -337,7 +327,7 @@
     mt-[8px]
     text-[16px]
     leading-[24px]
-    text-whitend-500
+    text-whitend-600
 }
 
 .home-customer-item {

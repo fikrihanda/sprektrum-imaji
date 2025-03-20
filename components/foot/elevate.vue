@@ -14,7 +14,7 @@
       <div class="mt-[24px] text-center">
         <button class="btn-default">
           Book Free Consultation
-          <NuxtIcon name="my-icon:arrow" size="15" class="ml-[16px]" />
+          <NuxtIcon name="my-icon:arrow" size="20" class="ml-[16px]" />
         </button>
       </div>
     </div>

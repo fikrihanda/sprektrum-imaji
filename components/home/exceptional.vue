@@ -60,7 +60,7 @@ function dynamicUrl(item: number) {
       </div>
       <button class="btn-select ml-auto">
         Show More Works
-        <NuxtIcon name="my-icon:arrow" size="15" class="ml-[16px]" />
+        <NuxtIcon name="my-icon:arrow" size="20" class="ml-[16px]" />
       </button>
     </div>
     <div class="home-exceptional-tags">
@@ -84,7 +84,7 @@ function dynamicUrl(item: number) {
           </div>
           <div class="ml-auto">
             <button class="btn-actions">
-              <NuxtIcon name="my-icon:arrow" size="15" />
+              <NuxtIcon name="my-icon:arrow" size="20" />
             </button>
           </div>
         </div>
