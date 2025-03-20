@@ -1,5 +1,71 @@
-.works-except {
+.works-except,
+.work-slug {
   @apply
   pt-[144px]
   px-[80px]
+}
+
+.work-slug-content {
+  @apply
+    flex
+    items-start
+    gap-[60px]
+}
+
+.work-slug-content-left {
+  @apply
+    flex-[1_0_0]
+}
+
+.work-slug-content-title {
+  @apply
+    text-[74px]
+    font-bold
+    leading-[88px]
+    tracking-[0.888px]
+    text-secondary
+}
+
+.work-slug-content-desc {
+  @apply
+    mt-[24px]
+    text-[20px]
+    font-medium
+    leading-[28px]
+    text-whitend-500
+}
+
+.work-slug-content-tag-title {
+  @apply
+    text-[16px]
+    leading-[20px]
+    text-secondary
+}
+
+.work-slug-content-tag-desc {
+  @apply
+    mt-[8px]
+    text-[20px]
+    leading-[28px]
+    font-medium
+    text-whitend-500
+}
+
+.work-slug-gallery {
+  @apply
+  flex flex-col gap-[60px] self-stretch;
+  img {
+    @apply w-full h-full rounded-[12px];
+    object-fit: cover;
+  }
+}
+
+.work-slug-w {
+  width: 50%;
+  @apply  h-[645px];
+}
+
+.work-slug-w-full {
+  width: 100%;
+  @apply  h-[645px];
 }
