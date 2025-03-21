@@ -69,3 +69,32 @@
   width: 100%;
   @apply  h-[645px];
 }
+
+.work-migth-container {
+  @apply
+    flex
+    justify-between
+    items-center
+}
+
+.work-migth-container-left {
+  @apply
+    w-[809px]
+    shrink-[0]
+}
+
+.work-migth-container-title {
+  @apply
+    text-secondary
+    text-[74px]
+    font-bold
+}
+
+.work-migth-container-desc {
+  @apply
+    mt-[24px]
+    text-whitend-500
+    text-[20px]
+    font-medium
+    leading-[28px]
+}
