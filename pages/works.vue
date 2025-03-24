@@ -74,13 +74,11 @@ function dynamicUrl(item: number) {
             <div class="home-exceptional-desc-title">
               {{ item.title }}
             </div>
-            <div class="home-exceptional-desc-desc">
-              {{ item.desc }}
-            </div>
           </div>
-          <div class="ml-auto">
-            <button class="btn-actions">
-              <NuxtIcon name="my-icon:arrow" size="20" />
+          <div class="">
+            <button class="btn-select detail">
+              View Detail
+              <NuxtIcon name="my-icon:arrow" class="ml-3" size="12" />
             </button>
           </div>
         </div>

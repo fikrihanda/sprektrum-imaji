@@ -208,7 +208,7 @@
     px-[32px]
     py-[16px]
     border-[1px]
-    border-accent
+    border-violet-500
     rounded-full
     text-whitend-500
     text-[20px]
@@ -240,16 +240,17 @@
 .home-exceptional-item {
   @apply
     rounded-[16px]
-    border-accent
+    border-violet-500
     border-[1px]
-    p-[24px]
+    overflow-hidden
     cursor-pointer;
 
   &:hover {
     @apply
       border-secondary;
 
-    .btn-actions {
+    .btn-actions,
+    .btn-select {
       @apply
         text-primary-500
         bg-secondary
@@ -261,15 +262,15 @@
   @apply
     h-[277px]
     overflow-hidden
-    rounded-[12px]
 }
 
 .home-exceptional-desc {
   @apply
-    mt-[24px]
+    bg-accent
     flex
-    items-center
-    gap-[24px]
+    flex-col
+    gap-[8px]
+    p-[24px]
     self-stretch;
 }
 
@@ -309,7 +310,7 @@
   @apply
     rounded-[16px]
     border-[1px]
-    border-accent
+    border-violet-500
     p-[24px]
 }
 
@@ -336,7 +337,7 @@
     p-[24px]
     rounded-[16px]
     border-[1px]
-    border-accent
+    border-violet-500
     w-full
 }
 

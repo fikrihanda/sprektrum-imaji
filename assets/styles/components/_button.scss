@@ -24,9 +24,16 @@
     text-[20px]
     text-whitend-500
     font-bold
-    border-accent
+    border-violet-500
     border-[1px]
     leading-[30px];
+
+  &.detail {
+    @apply
+      text-[12px]
+      leading-[16px]
+      p-[16px]
+  }
 
   &:hover {
     @apply
@@ -52,7 +59,7 @@
     h-[52px]
     text-white
     border-[1px]
-    border-accent;
+    border-violet-500;
 
   &:hover {
     @apply

@@ -24,7 +24,7 @@ onMounted(() => {
         <img src="~/assets/images/about-grid-2.png">
       </div>
       <div class="about-grid-item two">
-        <div class="w-full h-full bg-accent rounded-[16px]" />
+        <div class="w-full h-full bg-violet-500 rounded-[16px]" />
       </div>
       <div class="about-grid-item three">
         <img src="~/assets/images/about-grid-3.png">
