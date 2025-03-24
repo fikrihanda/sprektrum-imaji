@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+useHead({
+  title: 'Works',
+})
 const tags = ref([
   {
     value: null,

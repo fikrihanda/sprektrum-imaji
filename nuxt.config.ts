@@ -35,6 +35,7 @@ export default defineNuxtConfig({
         },
         extend: {
           colors: {
+            'primary-100': '#B2B6BB',
             'primary-500': '#061425',
             'secondary': '#9DE500',
             'accent': '#0E1C30',

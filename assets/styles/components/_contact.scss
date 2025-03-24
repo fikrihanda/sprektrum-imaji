@@ -1,0 +1,119 @@
+.contact-container {
+  @apply
+    mt-[60px]
+    flex
+    gap-[24px]
+    flex-wrap
+    items-center;
+}
+
+.contact-form {
+  @apply
+    p-[32px]
+    rounded-[16px]
+    border-[1px]
+    border-violet-500
+    bg-accent
+    w-[58.3333333333%]
+}
+
+.contact-label {
+  @apply
+    inline-block
+    text-[20px]
+    leading-[28px]
+    font-medium
+    text-whitend-500
+}
+
+.contact-input {
+  @apply
+    flex
+    py-[12px]
+    px-[16px]
+    text-[16px]
+    leading-[20px]
+    text-primary-100
+    rounded-[8px]
+    border-[1px]
+    border-violet-500
+    w-full
+    bg-[transparent];
+
+    &:focus {
+      @apply outline-0;
+    }
+}
+
+.contact-phone {
+  @apply
+    flex
+    rounded-[8px]
+    border-[1px]
+    border-violet-500;
+
+  > select {
+    @apply
+      py-[12px]
+      pl-[16px]
+      pr-[12px]
+      bg-[transparent]
+      text-[16px]
+      leading-[20px]
+      text-primary-100;
+
+    &:focus {
+      @apply
+        outline-0
+    }
+  }
+
+  > input {
+    @apply
+      flex-[1_0_0]
+      py-[12px]
+      pl-[12px]
+      pr-[16px]
+      bg-[transparent]
+      text-[16px]
+      leading-[20px]
+      text-primary-100;
+
+    &:focus {
+      @apply
+        outline-0
+    }
+  }
+}
+
+.contact-items {
+  @apply
+    flex-[1_0_0]
+}
+
+.contact-item {
+  @apply
+    p-[16px]
+    rounded-[16px]
+    border-[1px]
+    border-violet-500
+    bg-accent
+}
+
+.contact-item-title {
+  @apply
+    flex
+    items-center
+    text-[32px]
+    leading-[40px]
+    font-bold
+    tracking-[0.096px]
+    text-whitend-500
+}
+
+.contact-item-desc {
+  @apply
+    text-[20px]
+    leading-[40px]
+    text-whitend-600
+}
