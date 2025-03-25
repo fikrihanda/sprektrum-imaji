@@ -93,6 +93,9 @@
 
 .contact-item {
   @apply
+    flex
+    items-center
+    h-[184px]
     p-[16px]
     rounded-[16px]
     border-[1px]

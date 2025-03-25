@@ -57,39 +57,36 @@ useHead({
       </div>
       <div class="contact-items">
         <div class="contact-item">
-          <div class="contact-item-title">
-            <NuxtIcon name="my-icon:mail" size="40" class="text-secondary mr-[12px]" />
-            Email
-          </div>
-          <div class="contact-item-desc mt-[16px]">
-            loremipsum@email.com
+          <div>
+            <div class="contact-item-title">
+              <NuxtIcon name="my-icon:mail" size="40" class="text-secondary mr-[12px]" />
+              Email
+            </div>
+            <div class="contact-item-desc mt-[16px]">
+              loremipsum@email.com
+            </div>
           </div>
         </div>
         <div class="contact-item mt-[24px]">
-          <div class="contact-item-title">
-            <NuxtIcon name="my-icon:call" size="40" class="text-secondary mr-[12px]" />
-            Whatsapp
-          </div>
-          <div class="contact-item-desc mt-[16px]">
-            +62 878 4413 5406
-          </div>
-        </div>
-        <div class="contact-item  mt-[24px]">
-          <div class="contact-item-title">
-            <NuxtIcon name="my-icon:location" size="40" class="text-secondary mr-[12px]" />
-            Address
-          </div>
-          <div class="contact-item-desc mt-[16px]">
-            Jalan Panorama 7, Blok C No.7, Kota Bogor
+          <div>
+            <div class="contact-item-title">
+              <NuxtIcon name="my-icon:call" size="40" class="text-secondary mr-[12px]" />
+              Whatsapp
+            </div>
+            <div class="contact-item-desc mt-[16px]">
+              +62 878 4413 5406
+            </div>
           </div>
         </div>
         <div class="contact-item  mt-[24px]">
-          <div class="contact-item-title">
-            <NuxtIcon name="my-icon:working" size="40" class="text-secondary mr-[12px]" />
-            Working Hours
-          </div>
-          <div class="contact-item-desc mt-[16px]">
-            Monday - Saturday | 08.00 WIB - 18.00 WIB
+          <div>
+            <div class="contact-item-title">
+              <NuxtIcon name="my-icon:location" size="40" class="text-secondary mr-[12px]" />
+              Address
+            </div>
+            <div class="contact-item-desc mt-[16px]">
+              Jalan Panorama 7, Blok C No.7, Kota Bogor
+            </div>
           </div>
         </div>
       </div>

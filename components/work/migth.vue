@@ -9,7 +9,7 @@ const items = ref(
   }, (_v, i) => {
     return {
       id: i + 1,
-      title: 'Content Creation',
+      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       desc: 'Our team produces eye-catching graphics',
     }
   }),

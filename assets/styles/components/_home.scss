@@ -140,6 +140,7 @@
 
 .home-tag {
   @apply
+    bg-accent
     flex
     h-[100px]
     p-[16px]
@@ -148,7 +149,7 @@
     gap-[61px]
     self-stretch;
 
-  > .icon {
+   .icon {
     @apply text-secondary
   }
 }
@@ -163,6 +164,7 @@
 }
 
 .home-exceptional,
+.home-testi,
 .home-services,
 .services-our,
 .services-how,
@@ -276,10 +278,10 @@
 
 .home-exceptional-desc-title {
   @apply
-    text-whitend-600
+    text-whitend-500
     text-[24px]
     font-bold
-    leading-[34px]
+    leading-[32px]
     tracking-[0.048px]
 }
 

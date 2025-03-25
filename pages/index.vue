@@ -10,4 +10,5 @@ useHead({
   <HomeExceptional />
   <HomeServices />
   <HomeCustomer />
+  <HomeTesti />
 </template>

@@ -28,7 +28,7 @@ const items = ref(
   }, (_v, i) => {
     return {
       id: i + 1,
-      title: 'Content Creation',
+      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       desc: 'Our team produces eye-catching graphics',
     }
   }),
@@ -82,7 +82,7 @@ function dynamicUrl(item: number) {
           <div class="">
             <button class="btn-select detail">
               View Detail
-              <NuxtIcon name="my-icon:arrow" class="ml-3" size="12" />
+              <NuxtIcon name="my-icon:arrow" class="ml-3" size="18" />
             </button>
           </div>
         </div>
