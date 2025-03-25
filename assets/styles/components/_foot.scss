@@ -41,7 +41,8 @@
 .foot-about-content {
   @apply
     flex
-    justify-center
+    justify-between
+    self-stretch
     items-center
     gap-[80px]
 }
@@ -52,10 +53,10 @@
 
   > .normalize {
     @apply
-    mt-[16px]
+      mt-[16px]
       text-[16px]
-      leading-[24px]
-      text-whitend-500;
+      leading-[20px]
+      text-whitend-600;
   }
 }
 
@@ -63,7 +64,7 @@
   @apply
     text-[16px]
     leading-[24px]
-    text-whitend-500;
+    text-whitend-600;
 }
 
 .foot-about-item-title {
@@ -76,7 +77,7 @@
 
 .foot-hr {
   @apply
-    my-[60px]
+    my-[40px]
     border-violet-500
 }
 
