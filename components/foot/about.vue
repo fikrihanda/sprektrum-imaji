@@ -5,14 +5,14 @@
 <template>
   <div class="foot-about">
     <div class="foot-about-content">
-      <div class="w-[600px]">
+      <div class="w-[600px] max-lg:w-full">
         <img src="~/assets/images/logo.svg" class="w-[200px]">
         <div class="mt-[32px] foot-about-boost">
           We believe in the power of design to transform businesses. Our team of talented designers, strategists, and creative thinkers.
         </div>
       </div>
       <div class="flex items-center flex-wrap">
-        <div class="foot-about-item w-[180px]">
+        <div class="foot-about-item w-[180px] max-lg:w-auto">
           <div class="foot-about-item-title">
             Company
           </div>
@@ -26,7 +26,7 @@
             Become Affiliate
           </div>
         </div>
-        <div class="foot-about-item w-[180px]">
+        <div class="foot-about-item w-[180px] max-lg:w-auto">
           <div class="foot-about-item-title">
             Sosial Media
           </div>
@@ -40,7 +40,7 @@
             Whatsapp
           </div>
         </div>
-        <div class="foot-about-item w-[180px]">
+        <div class="foot-about-item w-[180px] max-lg:w-auto">
           <div class="foot-about-item-title">
             Contact
           </div>

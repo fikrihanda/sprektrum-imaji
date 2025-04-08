@@ -58,9 +58,9 @@ function dynamicUrl(item: number) {
           Explore our recent projects showcasing creativity, innovation, and impactful design solutions.
         </div>
       </div>
-      <button class="btn-select ml-auto">
+      <button class="btn-select">
         Show More Works
-        <NuxtIcon name="my-icon:arrow" size="20" class="ml-[16px]" />
+        <NuxtIcon name="my-icon:arrow" size="inherit" class="ml-[16px]" />
       </button>
     </div>
     <div class="home-exceptional-tags">

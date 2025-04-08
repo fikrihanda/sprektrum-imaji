@@ -45,19 +45,14 @@ function prevCara() {
   <div class="home-customer">
     <div class="home-entitled-group">
       <div class="home-entitled-container">
-        <div>
-          <div class="home-entitled-tag">
-            Feedback
-          </div>
-        </div>
-        <div class="home-entitled-title mt-[24px]">
+        <div class="home-entitled-title">
           Customer testimonials
         </div>
         <div class="home-entitled-subtitle">
           Collaboration enhances our best qualities through genuine interactions and valuable insights.
         </div>
       </div>
-      <div class="ml-auto flex gap-[16px]">
+      <div class="ml-auto flex gap-[16px] max-lg:hidden">
         <button class="btn-actions" @click="prevCara">
           <NuxtIcon name="my-icon:arrow-left" />
         </button>
@@ -71,7 +66,7 @@ function prevCara() {
         <Slide v-for="(item, i) in testis" :key="`testis-${i}`">
           <div class="home-customer-item">
             <div>
-              <NuxtIcon name="my-icon:quote" class="text-secondary" />
+              <NuxtIcon name="my-icon:quote" class="text-secondary" size="48" />
             </div>
             <div class="home-customer-item-quote">
               The agency transformed my website! They created a beautiful timeline that showcased my work perfectly. Their attention to detail made the process seamless, and I'm thrilled with the results!

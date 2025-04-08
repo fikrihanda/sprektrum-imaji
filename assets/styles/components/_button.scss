@@ -10,7 +10,10 @@
     text-primary-500
     bg-secondary
     font-bold
-    leading-[30px];
+    leading-[30px]
+    max-lg:px-[24px]
+    max-lg:text-[16px]
+    max-lg:leading-[20px];
 }
 
 .btn-select {
@@ -26,13 +29,19 @@
     font-bold
     border-violet-500
     border-[1px]
-    leading-[30px];
+    leading-[30px]
+    max-lg:px-[24px]
+    max-lg:text-[16px]
+    max-lg:leading-[20px];
 
   &.detail {
     @apply
       text-[18px]
       leading-[24px]
       py-[18px]
+      max-lg:px-[24px]
+      max-lg:text-[16px]
+      max-lg:leading-[20px];
   }
 
   &:hover {

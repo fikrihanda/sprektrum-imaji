@@ -3,6 +3,8 @@
   @apply
     py-[100px]
     px-[80px]
+    max-lg:py-[60px]
+    max-lg:px-[40px]
 }
 
 .foot-elevate-content {
@@ -25,6 +27,9 @@
     tracking-[0.888px]
     text-secondary
     text-center
+    max-lg:text-[48px]
+    max-lg:leading-[56px]
+    max-lg:tracking-[0.384px]
 }
 
 .foot-elevate-desc {
@@ -36,6 +41,10 @@
     tracking-[0.096px]
     font-medium
     text-center
+    max-lg:mt-[18px]
+    max-lg:text-[24px]
+    max-lg:leading-[32px]
+    max-lg:tracking-[0.048px]
 }
 
 .foot-about-content {
@@ -45,6 +54,9 @@
     self-stretch
     items-center
     gap-[80px]
+    max-lg:flex-col
+    max-lg:items-stretch
+    max-lg:gap-[32px]
 }
 
 .foot-about-item {

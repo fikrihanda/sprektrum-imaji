@@ -7,7 +7,7 @@ const myCara = ref<InstanceType<typeof Carousel> & CarouselExposed>()
 const config = computed(() => {
   return {
     itemsToShow: 8,
-    gap: 1,
+    gap: 61,
     snapAlign: 'start' as SnapAlign,
     wrapAround: true,
     autoplay: 4000,

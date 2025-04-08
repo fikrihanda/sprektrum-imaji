@@ -27,7 +27,7 @@ const unggulItems = ref([
           Maximize Your Impact with Professional Branding & Digital Agency.
         </div>
         <div class="home-hero-banner-subtitle">
-          We help businesses connect with their audience, boost engagement, and drive sales through tailored social media strategies and compelling content.
+          We help small, medium, and large businesses succeed with powerful digital solutions. From UI/UX design to web and app development, our services are designed to create a significant impact and drive business success.
         </div>
       </div>
       <div class="home-hero-banner-consult">
