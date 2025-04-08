@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   css: ['./assets/styles/app.scss', 'vue3-carousel/carousel.css'],
   modules: [
     '@vueuse/nuxt',
+    '@vueuse/motion/nuxt',
     '@nuxt/icon',
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
