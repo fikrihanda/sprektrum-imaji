@@ -221,6 +221,7 @@
 .home-entitled-container {
   @apply
     w-[835px]
+    max-lg:w-full
 }
 
 .home-entitled-title {
@@ -266,7 +267,15 @@
     flex
     items-center
     mt-[60px]
-    gap-[24px];
+    gap-[24px]
+    overflow-auto
+    scrollbar-none
+    max-lg:gap-[16px];
+
+    .btn-select {
+      @apply
+        flex-[0_0_fit-content]
+    }
 }
 
 .home-exceptional-items {
@@ -281,7 +290,8 @@
     gap-[40px]
     self-stretch
     max-lg:grid-cols-2
-    max-lg:gap-[20px];
+    max-lg:gap-[20px]
+    max-md:grid-cols-1;
 }
 
 .home-exceptional-item {
@@ -356,6 +366,7 @@
     self-stretch
     max-lg:grid-cols-2
     max-lg:gap-[20px]
+    max-md:grid-cols-1
 }
 
 .home-services-item {

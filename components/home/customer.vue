@@ -6,10 +6,15 @@ const myCara = ref<InstanceType<typeof Carousel> & CarouselExposed>()
 
 const config = computed(() => {
   return {
-    itemsToShow: 2,
+    itemsToShow: 1,
     gap: 40,
     snapAlign: 'start' as SnapAlign,
     wrapAround: true,
+    breakpoints: {
+      1024: {
+        itemsToShow: 2,
+      },
+    },
   }
 })
 
