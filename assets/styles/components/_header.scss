@@ -7,6 +7,11 @@
   }
 }
 
+.si-header-no-overflow {
+  @apply
+    overflow-hidden
+}
+
 .si-header {
   @apply
     flex
@@ -16,7 +21,10 @@
     w-[100%]
     h-[80px]
     px-[80px]
-    z-50;
+    z-20
+    max-md:py-[32px]
+    max-md:px-[40px]
+    max-md:h-auto;
 
     &.off {
       @apply
@@ -37,7 +45,8 @@
     flex
     justify-center
     items-center
-    gap-[24px];
+    gap-[24px]
+    max-md:hidden;
   > a {
     @apply
       text-[20px]
@@ -52,7 +61,122 @@
 
     &.router-link-active.router-link-exact-active {
       @apply
+        underline
         text-secondary;
+    }
+  }
+}
+
+.si-header-opt {
+  @apply
+    flex
+    items-center
+    gap-[32px]
+    max-md:hidden;
+}
+
+.si-header-opt-icon {
+  @apply
+    flex
+    items-center
+    gap-[12px]
+}
+
+.si-header-opt-icon-item {
+  @apply
+    text-whitend-500
+}
+
+.si-header-dd-btn {
+  @apply
+    flex
+    items-center
+    text-whitend-500
+    text-[18px]
+    leading-[24px]
+}
+
+.si-header-bars {
+  @apply
+    hidden
+    p-[10px]
+    items-center
+    justify-center
+    rounded-[8px]
+    border-violet-500
+    border-[1px]
+    text-whitend-500
+    max-md:inline-flex;
+}
+
+.si-header-backdrop {
+  @apply
+    fixed
+    h-full
+    w-full
+    opacity-[0.75]
+    bg-accent
+    z-30
+    top-0
+}
+
+.si-header-md {
+  @apply
+  hidden
+    fixed
+    top-0
+    max-w-[500px]
+    w-full
+    h-[100vh]
+    z-50
+    bg-primary-500;
+
+  &.open {
+    @apply
+      block
+  }
+}
+
+.si-header-md-header {
+  @apply
+    flex
+    items-center
+    justify-between
+    px-[24px]
+    py-[16px]
+}
+
+.si-header-md-content {
+  @apply
+
+    px-[24px]
+    py-[40px];
+
+  #icon-md {
+    @apply
+    mt-[24px]
+    flex
+      flex-col
+      gap-[24px];
+  }
+
+  #menu-md {
+    @apply
+      flex
+      flex-col
+      gap-[24px];
+
+    a {
+      @apply
+        text-[18px]
+        leading-[24px]
+        text-whitend-500;
+
+      &.router-link-active.router-link-exact-active {
+        @apply
+          underline
+          text-secondary;
+      }
     }
   }
 }
